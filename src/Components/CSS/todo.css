@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner-img.jpeg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+h1{
+  font-size: 50px;
+  font-family: copperplate, fantasy;
+  padding-bottom: 30px;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: #ddd;
+  color: rgb(10, 10, 10);
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type=time] {
+  width: 20%;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type=date] {
+  width: 20%;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+input[type=submit] {
+  background-color: rgb(87, 180, 192);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 22px;
+}
+
+select {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  background-color: #ddd;
+  color: rgb(10, 10, 10);
+  font-family: "Times New Roman", Times, serif;
+}
+
